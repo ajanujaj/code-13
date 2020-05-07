@@ -1,0 +1,6 @@
+lst=[1,2,1,1,2,3,4,5,4]
+f=[]
+
+for i in list(set(lst)):
+    f.append([i]*lst.count(i))
+print(f)
